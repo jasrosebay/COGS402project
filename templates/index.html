@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Tsheets Data - HOMEPAGE</title>
+		<meta name="description" content="Tsheets Data">
+		<meta name="Jasmine" content="SitePoint">
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+		<!--BOOTSTRAP-->
+		<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+		<!-- <script src="https://cdn.datatables.net/rowreorder/1.2.8/css/rowReorder.jqueryui.min.css"></script> -->
+		<script src="static/tsheets.js"></script>
+
+		<link rel="stylesheet" href="https://cdn.datatables.net/rowreorder/1.2.8/css/rowReorder.jqueryui.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="styles.css">
+      <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+
+	<!-- <link rel="stylesheet" type="text/css" href="newstyle.css"> -->
+
+		<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script> -->
+		<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script> -->
+		<link rel="stylesheet" href="static/styles.css?v=1.0">
+		<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script> -->
+<!--     <style>
+		  th, td, p, input, h3 {
+				font:15px 'Segoe UI';
+		  }
+		  table, th, td {
+				border: solid 1px #ddd;
+				border-collapse: collapse;
+				padding: 2px 3px;
+				text-align: center;
+		  }
+		  th {
+				font-weight:bold;
+		  }
+	 </style> -->
+	</head>
+	<body class = "container-fluid">
+		<center>
+<div class="w3-container">
+		<div id="menu" class="navbar navbar-default fixed-top">
+			<div class="container-fluid"><a href=#mainContent class="menu-item"></a>
+
+				<a href="/" class="menu-item">ALL TSHEET DATA</a>     |     
+				<a href="/summary" class="menu-item">SUMMARY</a>
+			</div>
+		</div>
+		<div id="mainContent" style="padding-top: 30px; padding-bottom: 30px;">
+			<div class = "container-fluid" id="title" style="padding-bottom: 50px;">
+							<a href="/"><img src="https://www.experienceyourblueprint.com/wp-content/uploads/blueprint-logo.png" alt="Blueprint Accounting Logo" style="height:20%; width: 20%; margin-top: 10%;"></a>
+				<h1 style="color: black;">Blueprint Tsheets Work Log Entries Data</h1>
+			</div>
+
+				<h2 style="color: black; text-align: left;" id="resultCount"></h2>
+
+				<form method='POST' action="/getdata">
+					User: <input value='"brian@experienceyourblueprint"' id="username" name="user" style=" padding: 10px; padding-left: 2%; padding-right: 2%; border-color: darkgrey">
+
+					Month: <input value=""id="month" name="month" style=" padding: 10px; padding-left: 2%; padding-right: 2%; border-color: darkgrey">
+					Year: <input value="2021"id="year" name="year" style=" padding: 10px; padding-left: 2%; padding-right: 2%; border-color: darkgrey">
+					Company: <input value="" id="company" name="company" style=" padding: 10px; padding-left: 2%; padding-right: 2%; border-color: darkgrey">
+					Service: <input value="" id="service" name="service" style=" padding: 10px; padding-left: 2%; padding-right: 2%; border-color: darkgrey">
+
+					</form>
+
+				<center><button id="display" style=" padding: 10px; margin-top: 10px; background-color: #0f6185; color: white; font-weight: bold; border-color: darkgrey; border-width: 3px;">Display Work Entry Logs</button></center>
+
+				<center><button id="summarize" style=" padding: 10px; margin-top: 10px; background-color: #0f6185; color: white; font-weight: bold; border-color: darkgrey; border-width: 3px;">Summarize Tsheets Hours 2021</button></center>
+
+</div>
+		</center>
+
+
+
+<center><div id="tsheetsData" class="w3-responsive"></div></center>
+
+
+ -->
+<div style="padding: 50px">
+			</div>
+
+		</div>
+
+		<!--main content -->
+	</body>
+	<!--container -->
+</html>
